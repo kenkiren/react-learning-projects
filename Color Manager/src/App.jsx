@@ -3,6 +3,7 @@ function App() {
   // const [count, setCount] = useState(0);
   const [color, setColor]= useState("");
   const[colors, setColors]= useState([]);
+  
   function AddColor(){
     if(!color) return
     //this if is to prevent adding empty string to the list cuz its not a valid color

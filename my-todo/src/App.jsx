@@ -29,7 +29,7 @@ function App() {
   return (
     
   <>
-        <h1>MY TODO APPLICATION</h1>
+        <h1>MY TODO APPLICATION ..</h1>
         <input
         type="text"
         placeholder= "type smth"

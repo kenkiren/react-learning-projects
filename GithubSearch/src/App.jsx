@@ -17,7 +17,7 @@ function App() {
     <>
     <h1>Another Learning Project- Github Search</h1>
     <input type="text"
-    placeholder="type here"
+    placeholder="type hereee"
     value={username}
     onChange={(e) => setUsername(e.target.value)} />
   

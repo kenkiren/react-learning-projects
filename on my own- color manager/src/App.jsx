@@ -9,9 +9,10 @@ function App() {
 function clicked(){
 
   if(! count.trim()) return
-
+//forgot then got it
   if(list.includes(count.trim())) return 
   setList([...list,count.trim()])
+  // forgot but then rememeberd
   setCount("")
 
 
@@ -28,7 +29,7 @@ function clicked(){
     />
     <button onClick={clicked}  >  ADD  </button>
 
-
+{/* mistake here */}
     <ul >   
       {list.map( (count)=>(
         <li>  
